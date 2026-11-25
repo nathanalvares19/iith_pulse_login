@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Pulse Login",
+  "version": "0.1",
+  "background": { "service_worker": "background.js" },
+  "permissions": ["identity"],
+  "oauth2": {
+    "client_id": "844846079212-la5p4heisrpqgdsgi90uv2pdp85hucml.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/gmail.readonly"]
+  },
+  "content_scripts": [
+    { "matches": ["https://pulse.iith.ac.in/login*"], "js": ["overlay.js", "content.js"] }
+  ]
+}
