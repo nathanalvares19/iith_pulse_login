@@ -1,6 +1,6 @@
 # IITH Pulse Portal Login Helper
 
-A Chrome extension to log in to the IITH Pulse Portal for me.
+A Chrome extension to log in to the IITH Pulse Portal.
 
 ## Setup
 
