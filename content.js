@@ -1,4 +1,4 @@
-const EMAIL = "ce24btech11042@iith.ac.in";
+const EMAIL = "ADD_YOUR_EMAIL";
 
 const post = async (url, body) => {
   const res = await fetch(url, {
